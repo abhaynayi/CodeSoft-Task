@@ -1,0 +1,298 @@
+@media only screen and (min-width: 320px) and (max-width: 820px) {
+    div.navbar {
+        position: relative;
+            width: 100%;
+        }
+        div.navbar a {
+            width: 100%;
+            float: none;
+        }
+        div.ftext{
+            font-size: 50px;
+        }
+        div.aboutus {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        div.aboutimg{
+            position: relative;
+            display: block;
+            align-items: center;
+        }
+        div.abouttext{
+            position: relative;
+            display: block;
+            text-align: justify;
+            width: fit-content;
+        }   
+}
+.navbar {
+    width: 100%;
+    background-color: black;
+    text-decoration: none;
+    position: fixed; 
+}
+.navbar a {
+    background-color: black;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    font-size: 15px;
+    display: block;
+}
+.navbar a:hover {
+    background-color: rgb(197, 208, 197);
+    transition: 0.3s;
+    text-decoration: none;
+}
+.logoimg {
+    width: 50px;
+    height: 50px;
+}
+.photo {
+    width: 100%;
+    height: 100%;
+}
+.container1{
+    text-align: center;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.h3 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ftext {
+    color: white;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container2{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.update1{
+    background-color: rgba(55, 58, 55, 0.551);
+    margin: 10px 20px;
+    width: 50%;
+    height: fit-content;
+    float: left;
+}
+.update2{
+    background-color: rgba(55, 58, 55, 0.551);
+    margin: 10px 20px;
+    width: 50%;
+    height: fit-content;
+    float: left;
+}
+.ul {
+    list-style: none;
+}
+.li {
+    display: block;
+    padding: 10px 0 10px 0;
+    font: 14px 'TornadoCRegular';
+    font-size: 18px;
+}
+.li a {
+    color: #eee;
+    text-decoration: none;
+}
+.lia:hover {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+}
+.ra {
+    background: url(spriteme-home1.png) no-repeat 0 0;
+    height: 50px;
+    left: -18px;
+    padding: 11px 0 0 102px;
+}
+.pe {
+    background: url(spriteme-home1.png) no-repeat 0 -90px;
+    height: 50px;
+    left: 13px;
+    padding: 11px 0 0 79px;
+}
+.middle {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+
+}
+.middle.boxb {
+    margin: 10px 10px;
+    position: relative;
+    object-fit: cover;
+}
+.boxc {
+    border: black;
+}
+.lower {
+    
+    display: block;
+}
+.container {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+}
+.container .box {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    margin: 5rem;
+}
+
+.container .box:hover .imgBox {
+    transform: translate(-1.5rem, -1.5rem);
+}
+
+.container .box:hover .content {
+    transform: translate(3.5rem, 3.5rem);
+    left: 20px;
+    bottom: 2px;
+}
+
+.imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+}
+
+.imgBox img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    resize: both;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    z-index: 1;
+    align-items: flex-end;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.content h2 {
+    display: block;
+    font-size: 2rem;
+    color:black;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+.aboutus{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.atext {
+    font-size: 30px;
+    color: rgb(53, 49, 49);
+}
+.aboutimg{
+    width: 30%;
+}
+.abouttext {
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    font-size: 20px;
+    text-align: justify;
+}
+.footer {
+    position: relative;
+    height: 50px;
+    font: 11px 'TornadoCRegular';
+    color: #c0bfc6;
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+
+}
+.copy {
+    display: flex;
+    justify-content: center;
+}
+.copy span {
+    padding: 0 10px;
+}
+.social {
+    position: relative;
+    display: inline-block;
+    font-style: none;
+}
+.li-1 {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    text-decoration: none;
+    color: black;
+}
+.li-1 a {
+    text-decoration: none;
+}
+.li-2 {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    text-decoration: none;
+    color: black;
+}
+.li-2 a {
+    text-decoration: none;
+}
+.li-3 {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    text-decoration: none;
+    color: black;
+}
+.li-3 a {
+    text-decoration: none;
+}
+.li-4 {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    text-decoration: none;
+    color: black;
+}
+.li-4 a {
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
